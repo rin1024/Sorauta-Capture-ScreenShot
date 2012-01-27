@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Sorauta-Capture-ScreenShot.t
+lib/Sorauta/Capture/ScreenShot.pm
