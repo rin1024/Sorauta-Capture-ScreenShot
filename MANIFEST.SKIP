@@ -3,7 +3,7 @@
 ^MANIFEST\.
 ^Makefile$
 ~$
-.DS_Store$
+\.DS_Store$
 \.old$
 ^blib/
 ^pm_to_blib
@@ -14,3 +14,4 @@
 ^\.git/
 ^\.shipit$
 \.gitignore$
+
