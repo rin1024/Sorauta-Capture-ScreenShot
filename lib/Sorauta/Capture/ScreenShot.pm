@@ -30,7 +30,7 @@ use HTTP::Request::Common qw/POST/;
 use File::Basename;
 use Sorauta::Utility;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 __PACKAGE__->mk_accessors(
   qw/os capture_file_path debug interval_time api_url api_attr/);
@@ -136,7 +136,7 @@ __END__
 
 =head1 NAME
 
-Sorauta::Cache::HTTP::Request::Image - create cache image when you got http request.
+Sorauta::Capture::ScreenShot - capture your desktop and send data to server
 
 =head1 SYNOPSIS
 
@@ -176,7 +176,7 @@ Sorauta::Cache::HTTP::Request::Image - create cache image when you got http requ
 
 =head1 DESCRIPTION
 
-create cache image when you got http request.
+capture your desktop and send data to server.
 
 =head2 EXPORT
 
